@@ -189,6 +189,7 @@ html{
         font-family: var(--main-letter);
         color: var(--color-letter);
         padding: 0rem 3rem;
+        list-style: none;
     }
     .title_exp1{
         font-family: var(--main-letter);
@@ -201,6 +202,7 @@ html{
     
     .title_exp1 ul{
         color: var(--color-letter);
+        list-style: none;
     
     }
     .services_info{
