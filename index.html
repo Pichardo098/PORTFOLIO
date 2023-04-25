@@ -5,8 +5,160 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/STYLES/styles.css">
+    <script src="https://kit.fontawesome.com/2c7a1f0771.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <header>
+        <hr>
+        <nav class="navbar" id="navbar">
+            <ul class="enlaces_Social">
+                <li>
+                    <a href="#" target="_blank" rel="noopener" id="ig">
+                        <i class="fab fa-instagram"> </i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Pichardo098?tab=repositories" target="_blank" rel="noopener" id="git">
+                        <i class="fab fa-github" ></i> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" rel="noopener" id="linkdn">
+                        <i class="fab fa-linkedin"></i> 
+                    </a>
+                </li>
+            </ul>
+            <h1 class="iniciales_Name">
+                <span class="letterNav">J</span>P
+            </h1>
+            <div>
+                <label for="menu_enlaces" class="label_enlaces">
+                    <i class="fas fa-bars" id="menu_ham"></i>
+                </label>
+                <input type="checkbox" id="menu_enlaces" class="input">
+                <ul class="enlaces_Nav">
+                    <li >
+                        <a href="#navbar">
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about_me">
+                            Sobre Mi
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#experience-info">
+                            Experiencia
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#services_info">
+                            Servicios
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contacto">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <hr>
+        <section class="info_Principal" id="info_Principal">
+            <section class="description_per">
+                <h1 class="frase_principal">
+                    Hola, <br>Soy Jesús Pichardo, <br> Diseñador y Desarrollador Web.
+                </h1>
+
+            </section>
+            <div >
+                <img class="img_pers" src="/Assets/img_personal.JPG" alt="imagen_Personal">
+            </div>
+        </section>
+    </header>
+    <hr>
+    <main>
+        <article class="about_me" id="about_me">
+            <h2 class="title_abtme">
+                Acerca de mí
+            </h2>
+            <p class="description_abtme">
+                Soy originario de Jalisco, México. <br>
+                Estoy enfocado principalmente en ser  fullstack developer. <br>
+                Actualmente me encuentro estudiando en Academlo, practicando diariamente las enseñanzas aprendidas.
+            </p>
+        </article>
+        <div id="input_inicio">
+            <a href="#navbar">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+        <hr>
+        <article class="experience-info" id="experience-info">
+            <h2 class="title_exp">
+                Experiencia laboral
+            </h2>
+            <ul class="lista_exp">
+                <li>Costco: 4 años</li>
+                <li>Cyberpuerta: 1 año</li>
+            </ul>
+            <section class="title_exp1">
+                <h2 >
+                    Estudios Académicos
+                </h2>
+                <ul>
+                    <li>Bachillerato</li>
+                    <li>Academlo</li>
+                </ul>
+            </section>
+            
+        </article>
+        <hr>
+        <article class="services_info"  id="services_info">
+            <h2>
+                Servicios
+            </h2>
+            <p>
+                En este momento puedo diseñar facilmente un una landing page, aún me encuentro en la busqueda de mas herramientas que me faciliten la creatividad dentro del mismo entorno CSS.
+            </p>
+        </article>
+    </main>
+    <footer id="contacto">
+        <h2 class="title_contact">
+            Contacto
+        </h2>
+            <ul class="contact_info">
+                <li>
+                    <a href="#" target="_blank" rel="noopener" id="ig">
+                        <i class="fab fa-instagram" > </i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Pichardo098?tab=repositories" target="_blank" rel="noopener" id="git">
+                        <i class="fab fa-github" ></i> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" rel="noopener" id="linkdn">
+                        <i class="fab fa-linkedin"></i> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" rel="noopener" id="wp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </li>
+            </ul>
+            <p>
+                Página y diseño por Jesús Pichardo.
+            </p>
+            <hr>
+    </footer>
+
+    <script src="/Node/node.js"></script>
 </body>
+
 </html>
