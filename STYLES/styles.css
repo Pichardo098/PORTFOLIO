@@ -19,6 +19,7 @@ html{
     }
     
     .navbar{
+        position: relative;
         top: 0;
         display: flex;
         flex-direction: row;
@@ -67,7 +68,7 @@ html{
     .enlaces_Nav{
         top: 40px;
         right: -120px;
-        position: fixed;
+        position: absolute;
         margin: 0;
         padding: .5rem;
         z-index: 1;
@@ -258,6 +259,7 @@ html{
     }
 
     .navbar{
+        position: relative;
         top: 0;
         display: flex;
         flex-direction: row;
@@ -304,9 +306,9 @@ html{
     }
     
     .enlaces_Nav{
-        top: 67px;
+        top: 65px;
         right: -120px;
-        position: fixed;
+        position: absolute;
         margin: 0;
         padding: .5rem;
         z-index: 1;
@@ -336,7 +338,6 @@ html{
     
     .enlaces_Nav li{
         text-align: start;
-
     }
     
     a{
@@ -508,6 +509,7 @@ html{
     }
 
     .navbar{
+        position: relative;
         top: 0;
         display: flex;
         flex-direction: row;
@@ -554,9 +556,9 @@ html{
     }
     
     .enlaces_Nav{
-        top: 75px;
+        top: 73px;
         right: -170px;
-        position: fixed;
+        position: absolute;
         margin: 0;
         padding: 1rem;
         z-index: 1;
@@ -759,6 +761,7 @@ html{
     }
 
     .navbar{
+        position: relative;
         top: 0;
         display: flex;
         flex-direction: row;
@@ -805,9 +808,9 @@ html{
     }
     
     .enlaces_Nav{
-        top: 118px;
+        top: 114px;
         right: -200px;
-        position: fixed;
+        position: absolute;
         margin: 0;
         padding: 1rem;
         z-index: 1;
