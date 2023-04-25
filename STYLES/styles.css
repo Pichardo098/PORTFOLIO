@@ -66,9 +66,9 @@ html{
     }
     
     .enlaces_Nav{
-        top: 40px;
-        right: -120px;
+        display: none;
         position: absolute;
+        transition: 3s linear;
         margin: 0;
         padding: .5rem;
         z-index: 1;
@@ -77,7 +77,6 @@ html{
         background-color: var(--main-color);
         color: var(--color-letter);
         font-family: var(--main-letter);
-        transition: 3s;
         align-items: start;
         opacity: .3;
     }
@@ -91,9 +90,9 @@ html{
     
     .input:checked + .enlaces_Nav{
         display: block;
-        transition: 2s;
         right: 0;
         text-align: center;
+        top: 40px;
     }
     
     .enlaces_Nav li{
@@ -307,7 +306,7 @@ html{
     
     .enlaces_Nav{
         top: 65px;
-        right: -120px;
+        display: none;
         position: absolute;
         margin: 0;
         padding: .5rem;
@@ -317,7 +316,6 @@ html{
         background-color: var(--main-color);
         color: var(--color-letter);
         font-family: var(--main-letter);
-        transition: 3s;
         align-items: start;
         opacity: .3;
     }
@@ -556,8 +554,8 @@ html{
     }
     
     .enlaces_Nav{
-        top: 73px;
-        right: -170px;
+        top: 74px;
+        display: none;
         position: absolute;
         margin: 0;
         padding: 1rem;
@@ -568,7 +566,6 @@ html{
         background-color: var(--main-color);
         color: var(--color-letter);
         font-family: var(--main-letter);
-        transition: 3s;
         align-items: start;
         opacity: .3;
     }
@@ -582,14 +579,12 @@ html{
     
     .input:checked + .enlaces_Nav{
         display: block;
-        transition: 2s;
         right: 0;
         text-align: center;
     }
     
     .enlaces_Nav li{
         text-align: start;
-
     }
     a{
         text-decoration: none;
@@ -809,7 +804,7 @@ html{
     
     .enlaces_Nav{
         top: 114px;
-        right: -200px;
+        display: none;
         position: absolute;
         margin: 0;
         padding: 1rem;
@@ -820,7 +815,6 @@ html{
         background-color: var(--main-color);
         color: var(--color-letter);
         font-family: var(--main-letter);
-        transition: 3s;
         align-items: start;
         opacity: .3;
     }
@@ -834,7 +828,6 @@ html{
     
     .input:checked + .enlaces_Nav{
         display: block;
-        transition: 2s;
         right: 0;
         text-align: center;
     }
